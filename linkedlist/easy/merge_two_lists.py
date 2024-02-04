@@ -54,6 +54,7 @@ def mergeTwoLists(self, list1, list2):
             current.next = list2 
             list2 = list2.next 
         current = current.next         
+    
     current.next = list1 or list2
     return head.next
 
