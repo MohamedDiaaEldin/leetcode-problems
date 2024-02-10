@@ -16,7 +16,17 @@ cur.next.next = last
 #     cur = cur.next 
 
 
-print('##')
-while first : 
-    print(first.val)
-    first = first.next
+# print('##')
+# while first : 
+#     print(first.val)
+#     first = first.next
+
+s = set()
+s.add(5)
+s.add(6)
+
+# for num in s : 
+#     print(num)
+
+# for val in iter(s): 
+#     print(val)
