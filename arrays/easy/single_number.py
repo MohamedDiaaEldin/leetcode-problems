@@ -46,7 +46,7 @@ def singleNumber( nums):
 
 # using a set
 # O(n) time
-# O(1) space
+# O(n) space
 def singleNumber_v2( nums):
     ##############
     s = set()
