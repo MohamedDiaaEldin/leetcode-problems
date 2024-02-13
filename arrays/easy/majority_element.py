@@ -53,6 +53,7 @@ def majorityElement_v2( nums):
             count = 1 
         else : 
             count -= 1 
+        
     return majority
 
 
