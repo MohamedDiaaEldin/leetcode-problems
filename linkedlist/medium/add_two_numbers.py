@@ -13,10 +13,10 @@ def addTwoNumbers(l1, l2):
     while l1 or l2 or carry: 
         l1_value = l1.val if l1 else 0
         l2_value = l2.val if l2 else 0
-        ## add number 
-        cur_sum = l1_value + l2_value + carry
-        right_digit = cur_sum % 10
-        carry = cur_sum // 10   
+        ## add numbers 
+        cur_sum = l1_value + l2_value + carry        
+        right_digit = cur_sum % 10 #extract right most digit
+        carry = cur_sum // 10   # extract the rest of the number - carry
         cur.next = ListNode(right_digit, None)
         # update pointers
         cur = cur.next
